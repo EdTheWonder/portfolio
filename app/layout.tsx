@@ -7,7 +7,7 @@ import SmoothScroll from "../components/smooth-scroll";
 export const metadata: Metadata = {
   title: "Iyindamope Ariori",
   description:
-    "Iyindamope's blog and portfolio, following his journeys as a creator in Nigeria.",
+    "Iyindamope's blog and portfolio, following his journey as a creator in Nigeria.",
   openGraph: {
     images: [
       {
