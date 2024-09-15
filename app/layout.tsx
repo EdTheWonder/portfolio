@@ -3,20 +3,11 @@ import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import SmoothScroll from "../components/smooth-scroll";
-import { OpenGraph } from "next/dist/lib/metadata/types/opengraph-types";
 
 export const metadata: Metadata = {
   title: "Iyindamope Ariori",
   description:
     "Iyindamope's blog and portfolio, following his journeys as a creator in Nigeria.",
-  openGraph: {
-    images: [
-      {
-        url: "/opengraph-imag.png", // Path to your Open Graph image
-        alt: "Iyindamope Ariori",
-      },
-    ],
-  },
 };
 
 const raleway = Raleway({
