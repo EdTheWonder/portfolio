@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaTwitter } from "react-icons/fa"; // Removed FaYoutube import
 
 import styles from "../styles/header.module.scss";
 import commonStyles from "../styles/common.module.scss";
@@ -14,28 +14,28 @@ export default function Header({ logoLink }: HeaderProps) {
       <nav className={styles.nav}>
         <div className={styles.spaceBetween}>
           <Link href={logoLink} className={styles.logo} rel="home">
-            <span aria-hidden="true">AG</span>
+            <span aria-hidden="true">damope</span>
             <span className={commonStyles.hiddenText}>
-              Alexander Grattan - Homepage
+              Iyindamope Ariori - Homepage
             </span>
           </Link>
           <ul className={styles.navList}>
             <li>
               <a
-                href="https://github.com/agrattan0820"
-                title="Go to Alexander's GitHub"
+                href="https://www.instagram.com/iameddywonder/"
+                title="Go to damope's Instagram"
               >
-                GitHub
-                <FaGithub />
+                Instagram
+                <FaInstagram />
               </a>
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/alexander-grattan/"
-                title="Connect with Alexander on LinkedIn"
+                href="https://www.twitter.com/iameddywonder"
+                title="Connect with damope on Twitter"
               >
-                LinkedIn
-                <FaLinkedin />
+                Twitter
+                <FaTwitter />
               </a>
             </li>
           </ul>
