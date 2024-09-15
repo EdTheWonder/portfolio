@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   title: "Iyindamope Ariori",
   description:
     "Iyindamope's blog and portfolio, following his journeys as a creator in Nigeria.",
+  openGraph: {
+    images: [
+      {
+        url: "/opengraph-imag.png", // Path to your Open Graph image
+        alt: "Iyindamope Ariori",
+      },
+    ],
+  },
 };
 
 const raleway = Raleway({
