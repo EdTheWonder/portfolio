@@ -1,8 +1,8 @@
 import { StaticImageData } from "next/image";
 
 import ArtificialUnintelligence from "../images/Tiktok1.png";
-import Ali1 from "../images/Ali1.png"; // Import the new image
-
+import Ali1 from "../images/Ali1.png"; // Import the new ima
+import ChatterBox from "../images/Chatter.png"
 
 export type ProjectType = {
   name: string;
@@ -35,6 +35,15 @@ export const projectsList: ProjectType[] = [
     image: Ali1, // New image
     link: "https://test2-five-amber.vercel.app", // Replace with the actual link 
     slug: "e-commerce-site-clone", // New slug
+    type: "Personal Project",
+  },
+  {
+    name: "ChatterBox", // New project name
+    description:
+      "Chat with ChatterBox, an AI chatbot built with Next.js, React, Tailwind CSS, and Supabase.",
+    image: ChatterBox, // New image
+    link: "https://cbox-mu.vercel.app/", // Replace with the actual link 
+    slug: "chatterbox", // New slug
     type: "Personal Project",
   },
 ];
